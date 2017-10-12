@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="loadImageButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onLoadImageButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Загрузить изображение" />
+      <Button fx:id="showNormalImageButton" layoutX="196.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onShowNormalImageButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Показать изображение" />
+      <Button fx:id="convertToGrayScaleButton" layoutX="14.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#onConvertToGrayScaleButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Перевести в полутоновое" />
+      <Button fx:id="convertToBinaryButton" layoutX="14.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#onConvertToBinaryButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Перевести в бинарное" />
+      <Button fx:id="showBinaryImageButton" layoutX="196.0" layoutY="50.0" mnemonicParsing="false" onMouseClicked="#onShowBinaryImageButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Показать бинарное" />
+      <Button fx:id="showLabeledImageButton" layoutX="196.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#onShowLabeledImageButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Показать обработанное" />
+      <Button fx:id="selectObjectsButton" layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#onSelectObjectsButtonClicked" prefHeight="25.0" prefWidth="170.0" text="Выделить объекты" />
+   </children>
+</AnchorPane>
